@@ -1,0 +1,85 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+  
+/* Color palette */
+:root {
+    --system-light-gray: #F8F8F8;
+    --system-dark-gray: #EFEFF4;
+    --system-blue: #007AFF;
+  
+    --active-selection: #4A83F2;
+    --black: #1E1E1E;
+    --white: #FFF;
+    
+    --route-primary: #5AC7FA;
+    --route-secondary: #4A83F2;
+  }
+
+  main {
+    max-width: 425px;
+    width: 100%;
+    margin: auto;
+    font-family: sans-serif;
+    background-color: var(--system-dark-gray);
+  }
+
+  .busnumber {
+    position:  absolute;
+    color: var(--white);
+    padding: 15px;
+    border-radius: 10px;
+    background: #5AC7FA;
+  }
+
+ .arrow {
+   margin-left: 360px;
+   margin-top: 10px;
+   position: absolute;
+ }
+
+  h1 {
+    font-size: small;  
+    color: #939393;
+    padding-top: 10px;
+  }
+
+  h2 {
+    text-align: center;
+    margin: 20px;
+  }
+
+  ul {
+    background: #ffffff;
+    padding: 10px;
+  }
+  
+  ul li {
+    background: #ffffff;
+    display: inline;
+  }
+
+  .row{
+    height: 75px;  
+    padding-top: 15px;
+    margin-bottom: 1px;
+  }
+
+  .destination {
+      margin-left: 60px;
+      color: var(--route-primary); 
+      font-size: large;
+  }
+
+  .eta {
+      font-weight: bold;
+      margin-left: 60px;
+      color: var(--route-secondary);
+  }
+
+  .frequency {
+      color: #939393 ;
+      font-style: italic;
+  }
