@@ -18,18 +18,24 @@
     --route-secondary: #4A83F2;
   }
 
+  @font-face {
+    font-family: SFProText;
+    src: url(SFProText-Regular.ttf)
+  }
   main {
     max-width: 425px;
     width: 100%;
     margin: auto;
-    font-family: sans-serif;
+    font-family: SFProText;
     background-color: var(--system-dark-gray);
   }
 
   .busnumber {
     position:  absolute;
+    width: 47px;
+    height: 47px;
     color: var(--white);
-    padding: 15px;
+    padding: 14px;
     border-radius: 10px;
     background: #5AC7FA;
   }
@@ -47,6 +53,8 @@
   }
 
   h2 {
+    font-size: 20px;
+    font-weight: bold;
     text-align: center;
     margin: 20px;
   }
@@ -75,11 +83,13 @@
 
   .eta {
       font-weight: bold;
+      font-size: 16px;
       margin-left: 60px;
       color: var(--route-secondary);
   }
 
   .frequency {
-      color: #939393 ;
+      color: #939393;
+      font-size: 12px;
       font-style: italic;
   }
