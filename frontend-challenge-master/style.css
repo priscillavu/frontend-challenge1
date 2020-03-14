@@ -22,6 +22,32 @@
     font-family: SFProText;
     src: url(SFProText-Regular.ttf)
   }
+
+nav {
+  background-color: var(--system-light-gray);
+}
+
+.statusbar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.WalkDistance {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+#walkdistance {
+  background-color: var(--white);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
   main {
     max-width: 425px;
     width: 100%;
@@ -32,6 +58,7 @@
 
   .busnumber {
     position:  absolute;
+    font-weight: bold;
     width: 47px;
     height: 47px;
     color: var(--white);
@@ -50,13 +77,16 @@
     font-size: small;  
     color: #939393;
     padding-top: 10px;
+    padding-left: 10px;
   }
 
   h2 {
+    position: relative;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   ul {
@@ -78,7 +108,7 @@
   .destination {
       margin-left: 60px;
       color: var(--route-primary); 
-      font-size: large;
+      font-size: 20px;
   }
 
   .eta {
@@ -90,6 +120,20 @@
 
   .frequency {
       color: #939393;
-      font-size: 12px;
+      font-size: 14px;
       font-style: italic;
+  }
+
+  .resumes {
+    margin-left: 60px;
+    color: #939393;
+  }
+
+  footer {
+    background-color: var(--system-light-gray);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    text-align: center;
+    color:var(--system-blue);
   }

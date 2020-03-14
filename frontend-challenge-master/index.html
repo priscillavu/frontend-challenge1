@@ -15,15 +15,16 @@
   <body>
     <main>
     <header>
-      <div>
-        <img src="images\iOS Project.png" alt="Status Bar">
-      </div>
       <nav>
+      <div>
+        <img src="images\iOS Project.png" alt="Status Bar" class="statusbar">
+      </div>
         <h2>Washington & State</h2>
       <div>
-        <img src="images\Walk-Distance.png" alt="Walk-Distance" style="background-color: white;>
-      </div>
       </nav>
+      <div id="walkdistance">
+        <img src="images\Walk-Distance.png" alt="Walk-Distance" class="WalkDistance"></div>
+      </div>
     </header>
 
     <section class="buslist">
@@ -97,8 +98,8 @@
         <li class="busnumber">4</li>
         <li class="destination">Cottage Grove</li>
         <li class="time"><br>
-          <span class="resumes">Resumes</span><br>
-          <span class="frequency"> 12:10am</span>
+          <span class="resumes">Resumes</span>
+          <span class="resumetime">12:10am</span>
         </li>
       </ul>
 
@@ -107,8 +108,8 @@
         <li class="busnumber">20</li>
         <li class="destination">Madison</li>
         <li class="time"><br>
-          <span class="resumes">Resumes</span><br>
-          <span class="frequency"> 12:10am</span>
+          <span class="resumes">Resumes</span>
+          <span class="resumetime">12:10am</span>
         </li>
       </ul>
 
@@ -118,10 +119,13 @@
         <li class="destination">Streeterville/Taylor</li>
         <li class="time"><br>
           <span class="resumes">Resumes</span>
-          <span class="frequency"> 06:00am</span>
+          <span class="resumetime">6:00am</span>
         </li>
       </ul>
     </section>
+    <footer>
+      <p>Show inactive lines</p>
+    </footer>
   </main>
   </body>
   </html>
