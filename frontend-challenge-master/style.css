@@ -24,7 +24,11 @@
   }
 
 nav {
+  background-image: url(images/Back.png);
+  background-repeat: no-repeat;
+  background-position-y: 32px;
   background-color: var(--system-light-gray);
+  border-bottom: 1px solid #a9a9a9;
 }
 
 .statusbar {
@@ -62,7 +66,18 @@ nav {
     width: 47px;
     height: 47px;
     color: var(--white);
-    padding: 14px;
+    padding: 15px;
+    border-radius: 10px;
+    background: #5AC7FA;
+  }
+
+  .busnumber3 {
+    position:  absolute;
+    font-weight: bold;
+    width: 47px;
+    height: 47px;
+    color: var(--white);
+    padding: 15px 30px 10px 10px;
     border-radius: 10px;
     background: #5AC7FA;
   }
@@ -130,10 +145,11 @@ nav {
   }
 
   footer {
+    border-top: ##a9a9a9;
     background-color: var(--system-light-gray);
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 18px;
     text-align: center;
-    color:var(--system-blue);
+    color:#FF3F3F;
   }
