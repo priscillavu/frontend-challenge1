@@ -31,6 +31,68 @@ nav {
   border-bottom: 1px solid #a9a9a9;
 }
 
+.item {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.route-list {
+  border-bottom: 1px solid var(--system-dark-gray);
+}
+
+.route-content {
+  display: flex;
+}
+
+.route-number {
+  align-self: center;
+  font-weight: bold;
+  width: 48px;
+  height: 48px;
+  color: var(--white);
+  padding: 15px;
+  border-radius: 8px;
+  background: #5ac7fa;
+}
+
+.route-number-3 {
+  align-self: center;
+  font-weight: bold;
+  width: 48px;
+  height: 48px;
+  color: var(--white);
+  padding: 14px 20px 10px 10px;
+  border-radius: 8px;
+  background: #5ac7fa;
+}
+
+.route-title {
+  align-self: center;
+  padding-left: 8px;
+  color: var(--route-primary);
+  font-size: 20px;
+}
+
+.route-eta {
+  font-weight: bold;
+  font-size: 16px;
+  color: var(--route-secondary);
+}
+
+.route-frequency {
+  color: #939393;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.route-resumes {
+  color: #939393;
+  font-size: 14px;
+}
+
 .statusbar {
   display: block;
   margin-left: auto;
@@ -60,34 +122,6 @@ nav {
     background-color: var(--system-dark-gray);
   }
 
-  .busnumber {
-    position: absolute;
-    font-weight: bold;
-    width: 47px;
-    height: 47px;
-    color: var(--white);
-    padding: 15px;
-    border-radius: 10px;
-    background: #5AC7FA;
-  }
-
-  .busnumber3 {
-    position: absolute;
-    font-weight: bold;
-    width: 47px;
-    height: 47px;
-    color: var(--white);
-    padding: 15px 30px 10px 10px;
-    border-radius: 10px;
-    background: #5AC7FA;
-  }
-
- .arrow {
-   margin-left: 360px;
-   margin-top: 10px;
-   position: absolute;
- }
-
   h1 {
     font-size: small;  
     color: #939393;
@@ -114,38 +148,12 @@ nav {
     display: inline;
   }
 
-  .row{
-    height: 75px;  
-    padding-top: 15px;
-    margin-bottom: 1px;
-  }
-
-  .destination {
-      margin-left: 60px;
-      color: var(--route-primary); 
-      font-size: 20px;
-  }
-
-  .eta {
-      font-weight: bold;
-      font-size: 16px;
-      margin-left: 60px;
-      color: var(--route-secondary);
-  }
-
-  .frequency {
-      color: #939393;
-      font-size: 14px;
-      font-style: italic;
-  }
-
-  .resumes {
-    margin-left: 60px;
-    color: #939393;
+  .arrow {
+    margin-right: 15px;
   }
 
   footer {
-    border-top: ##a9a9a9;
+    border-top: #a9a9a9;
     background-color: var(--system-light-gray);
     padding-top: 20px;
     padding-bottom: 20px;
